@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78aa3bed-0ba4-4ff4-aa99-7d00ff661315" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/3D_DrSAM_Github.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../实验报告0811.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../实验报告0811.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +176,7 @@
       <workItem from="1753835909334" duration="75591000" />
       <workItem from="1754286091961" duration="53244000" />
       <workItem from="1754876418766" duration="11502000" />
-      <workItem from="1758778077402" duration="792000" />
+      <workItem from="1758778077402" duration="1985000" />
     </task>
     <servers />
   </component>
