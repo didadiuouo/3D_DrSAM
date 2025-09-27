@@ -1,10 +1,10 @@
-3D_DrSAM 
+#3D_DrSAM 
 
-DrSAM3D对比算法   位置：D:\Desktop\3D_segmentation\3D-DRSAM\2. SAM3d-consist
+##DrSAM3D对比算法   位置：D:\Desktop\3D_segmentation\3D-DRSAM\2. SAM3d-consist
 
 DrSAM3D结合了一个基于U-Net的深度学习模型（LumoDiscNet, LDN）和一个预训练的图像分割模型（SAM 3D），以提高脊椎间盘分割的准确性。LDN提供初步的分割结果，作为SAM 3D的提示，引导SAM 3D进行更精确的分割。
 
-Run 3D_DrSAm.py
+##Run 3D_DrSAm.py
 	输出结果平均DICE，IOU
 	每2epoch输出3D分割结果
 
@@ -36,15 +36,15 @@ Average_All	0.7849	0.6706
 DrSAM3D/
       │
       └── 3D_DrSAM_end/
-               ├──checkpoint     #权重保存
-               │
-               ├── output           #推理图像输出
-               │
-	       ├── segement_anything_3d        #SAM3D权重及文件
-               │
-               ├── utils                   #数据处理函数
-               │
-               └──3D_DrSAM         #DrSAM3D主函数      
+        	├──checkpoint               #权重保存
+            │
+            ├── output                  #推理图像输出
+            │
+	        ├── segement_anything_3d        #SAM3D权重及文件
+            │
+            ├── utils                   #数据处理函数
+            │
+            └──3D_DrSAM                 #DrSAM3D主函数      
 
 Usage
 train
