@@ -374,7 +374,7 @@ def draw_seg_nii(outputs, b, img_paths, device, n_classes, output_dir):
     except Exception as e:
         print(f"Error verifying {output_path}: {e}")
 
-def evaluate_and_save(model, test_loader, device, n_classes, output_dir,epoch, all_avg_dice_scores, all_avg_iou_scores, draw_seg):
+def evaluate_and_save(model, test_loader, device, n_classes, output_dir, epoch, all_avg_dice_scores, all_avg_iou_scores, draw_seg):
     model.eval()
     dice_scores = {f'class_{i}': [] for i in range(n_classes)}
     iou_scores = {f'class_{i}': [] for i in range(n_classes)}
